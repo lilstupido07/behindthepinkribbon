@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Breast Cancer Awareness</title>
+  <link rel="stylesheet" href="home.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+  <section class="header">
+    <nav>
+      <a href="index.html"><img src="images/black logo.png" alt="Breast Cancer Logo"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="website.html">Home</a></li>  
+          <li><a href="about.html">About</a></li>
+          <li><a href="prevention.html">Prevention</a></li>
+          <li><a href="treatment.html">Treatment</a></li>
+          <li><a href="survivors.html">Survivors</a></li>
+          <li><a href="get-involved.html">Get Involved</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <div class="text-box">
+      <h1>Raise Awareness, Save Lives</h1>
+      <p>Early detection can increase survival rates by up to 90%</p>
+      <a href="#" class="hero-btn">Learn More</a>
+    </div>
+  </section>
+
+  <!-- Quotes Section -->
+  <section class="course">
+    <h1>Words of Support</h1>
+    <p>A collection of heartfelt notes to remind you: you're not alone.</p>
+    <div class="row">
+      <div class="course-col">
+        <p>"Cancer taught me that pain is inevitable but suffering is a choice. In kindness, there is strength. In love, there is comfort. In stillness, there is hope. Be the light you need, you can do this!"</p>
+        <h3>- Ewelina</h3>
+        <p class="nbcf">– National Breast Cancer Foundation, Wall of Support</p>
+      </div>
+      <div class="course-col">
+        <p>"You are an extremely strong and resilient individual. We are all here to support you in your fight against breast cancer so you are not fighting this battle alone."</p>
+        <h3>- Julio</h3>
+        <p class="nbcf">– National Breast Cancer Foundation, Wall of Support</p>
+      </div>
+      <div class="course-col">
+        <p>"We are all warriors in this fight! I strongly believe we are selected to show others just starting out how this journey changes us all in some way and we are here for one another!"</p>
+        <h3>- Sharon</h3>
+        <p class="nbcf">– National Breast Cancer Foundation, Wall of Support</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Donate Section -->
+  <section class="transfer">
+    <h1>Support without Limits</h1>
+    <p>Donate to the Breast Cancer Research Foundation to fund and improve the lives of millions!</p>
+    <div class="row">
+      <div class="transfer-col">
+        <img src="images/woman-recovering-after-breast-cancer.jpg" alt="Recovery in London">
+        <div class="layer"><h3>"I am stronger than cancer"</h3></div>
+      </div>
+  
+      <div class="transfer-col">
+        <img src="images/4212081.jpg" alt="Breast Cancer Awareness">
+        <div class="layer">
+          <h3><a href="https://give.bcrf.org/campaign/584695/donate" target="_blank" class="donate-link">DONATE NOW</a></h3>
+        </div>
+      </div>
+  
+      <div class="transfer-col">
+        <img src="images/adoptive-mother-spending-time-with-her-daughter.jpg" alt="Recovery in Washington">
+        <div class="layer"><h3>“Breast cancer affects more than one life.”</h3></div>
+      </div>
+    </div>
+  </section>
+  
+
+
+
+  <!-- Call to Action -->
+  <section class="cta">
+    <h1>Join Our Mission<br>From Anywhere in the World</h1>
+    <a href="#" class="hero-btn">Contact Us</a>
+  </section>  
+
+  <!-- Footer -->
+  <section class="footer">
+    <h4>About Us</h4>
+    <p>We are committed to raising awareness and supporting those affected by breast cancer.</p>
+    <div class="icons">
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-linkedin-in"></i>
+    </div>
+    <p>Made by Shakhzoda</p>
+  </section>
+
+  <!-- JavaScript for Toggle Menu -->
+  <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+  </script>
+
+</body>
+</html>
+
+

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Breast Cancer Awareness</title>
+  <link rel="stylesheet" href="home.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="images/black logo.png" alt="Breast Cancer Logo"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="website.html">Home</a></li>  
+          <li><a href="about.html">About</a></li>
+          <li><a href="prevention.html">Prevention</a></li>
+          <li><a href="treatment.html">Treatment</a></li>
+          <li><a href="survivors.html">Survivors</a></li>
+          <li><a href="get-involved.html">Get Involved</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>About</h1>
+
+  </section>
+
+  <section>
+  <div class="whole-about">
+    <div class="paragraph">
+    <h3>About Breast Cancer</h3>
+    <p>
+      Breast cancer is a disease where cells in the breast grow uncontrollably, forming a tumor that can often be felt as a lump or seen on an x-ray.
+       In 2024, approximately 310,720 new cases of invasive breast cancer were diagnosed in women in the United States, and an estimated 42,250 women died from the disease . 
+       Globally, breast cancer caused 670,000 deaths in 2022, making it the most common cancer among women in 157 out of 185 countries . 
+       While the exact cause of breast cancer is not fully understood, certain risk factors such as age, family history, and lifestyle choices can increase the likelihood of developing the disease. 
+       Early detection through regular screenings and self-exams is crucial, as it significantly improves treatment outcomes and survival rates. 
+       Advancements in research and treatment have led to a 44% decline in breast cancer mortality rates since 1989 in the U.S., preventing approximately 517,900 deaths .
+    </p>
+  </div>
+  
+  <div class="types">
+  <h3>Types of Breast Cancer</h3>
+  <img src="images/1022380-What-to-Know-About-Invasive-Breast-Cancer-1296x728-lobular-carcinoma-in-situ-1296x1234.webp">
+  <p style="font-size: 0.8em; text-align: center;">Image source: <a href="https://www.healthline.com/health/breast-cancer/types-of-breast-cancer#types" target="_blank">Healthline</a></p>
+  <p>
+    Breast cancer is not a single disease, but a group of cancers that affect the cells in the breast in different ways. 
+    Each type varies in how it behaves, where it begins, and how it responds to treatment.
+     Knowing the differences between types of breast cancer can help patients and their families better understand diagnosis, prognosis, and treatment options.
+      Below are the most common types of breast cancer and key facts about each one.
+  </p>
+
+  <div class>
+  <section>
+    <details>
+      <summary>Ductal Carcinoma In Situ (DCIS)</summary>
+      <div class="accordion-content">
+        A non-invasive cancer where abnormal cells are found in the lining of a breast duct but haven’t spread. It’s considered the earliest form of breast cancer and is highly treatable.
+      </div>
+    </details>
+  
+    <details>
+      <summary>Invasive Ductal Carcinoma (IDC)</summary>
+      <div class="accordion-content">
+        The most common type, IDC begins in the milk ducts and invades surrounding breast tissue. It accounts for about 80% of all breast cancer diagnoses.
+      </div>
+    </details>
+  
+    <details>
+      <summary>Invasive Lobular Carcinoma (ILC)</summary>
+      <div class="accordion-content">
+        Starts in the lobules (milk-producing glands) and spreads to nearby breast tissue. ILC tends to be harder to detect with mammograms.
+      </div>
+    </details>
+  
+    <details>
+      <summary>Triple-Negative Breast Cancer</summary>
+      <div class="accordion-content">
+        A more aggressive type that doesn’t have estrogen, progesterone, or HER2 receptors. It grows and spreads faster and has fewer targeted treatment options.
+      </div>
+    </details>
+  
+    <details>
+      <summary>HER2-Positive Breast Cancer</summary>
+      <div class="accordion-content">
+        A fast-growing type with high levels of the HER2 protein. While aggressive, it responds well to targeted therapies.
+      </div>
+    </details>
+  
+    <details>
+      <summary>Inflammatory Breast Cancer (IBC)</summary>
+      <div class="accordion-content">
+        A rare but aggressive form that causes the breast to appear red, swollen, and warm. It tends to spread quickly and often doesn’t cause a lump.
+      </div>
+    </details>
+  
+    <details>
+      <summary>Paget’s Disease of the Nipple</summary>
+      <div class="accordion-content">
+        A rare form that starts in the ducts and spreads to the nipple and areola. It may cause itching, redness, or flaking skin.
+      </div>
+    </details>
+  
+    <details>
+      <summary>Metastatic Breast Cancer (Stage IV)</summary>
+      <div class="accordion-content">
+        Also called advanced breast cancer, it means the cancer has spread to other parts of the body like bones, liver, lungs, or brain.
+      </div>
+    </details>
+  </section>
+  </div>
+</div>
+</div>
+
+
+
+  <!-- Footer -->
+  <section class="footer">
+    <h4>About Us</h4>
+    <p>We are committed to raising awareness and supporting those affected by breast cancer.</p>
+    <div class="icons">
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-linkedin-in"></i>
+    </div>
+    <p>Made by Shakhzoda</p>
+  </section>
+
+  <!-- JavaScript for Toggle Menu -->
+  <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+  </script>
+
+</body>
+</html>
+
+

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Breast Cancer Awareness</title>
+  <link rel="stylesheet" href="home.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="images/black logo.png" alt="Breast Cancer Logo"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="website.html">Home</a></li>  
+          <li><a href="about.html">About</a></li>
+          <li><a href="prevention.html">Prevention</a></li>
+          <li><a href="treatment.html">Treatment</a></li>
+          <li><a href="survivors.html">Survivors</a></li>
+          <li><a href="get-involved.html">Get Involved</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Treatment</h1>
+
+  </section>
+
+  <div class="whole-about">
+  <section class="treatment-f">
+    <div class="prerequisite-info">
+    <p>Breast cancer treatment involves a multidisciplinary approach tailored to the unique characteristics of each patient’s diagnosis.
+       Factors such as the cancer's stage, hormone receptor status, and genetic markers play a critical role in determining the most effective course of action.
+        Treatment plans may include localized interventions, such as surgery and radiation therapy, as well as systemic therapies designed to target cancer cells throughout the body.
+         The objective is to not only eliminate the tumor but also minimize the likelihood of recurrence and preserve long-term health.</p>
+    </div>
+    <div class="f-left">
+      <img src="images/Best-Breast-Cancer-Treatment-In-Chennai-1024x671.webp" alt="Types of Breast Cancer Treatment">
+      <p class="img-caption">Source: breastcancer.hospital</p>
+    </div>
+  
+    <div class="f-right">
+      <h2>Explore Treatment Options</h2>
+      
+      <details>
+        <summary>Surgery</summary>
+        <p>Surgery is often the first line of treatment for breast cancer and involves physically removing the tumor from the breast.
+           The most common types are lumpectomy, which removes only the tumor and a small margin of surrounding tissue, and mastectomy, which removes one or both breasts entirely.
+            In some cases, lymph nodes under the arm may also be removed to check for spread.
+             Surgery is typically followed by additional treatments like radiation or chemotherapy to reduce recurrence risk.</p>
+      </details>
+  
+      <details>
+        <summary>Radiation Therapy</summary>
+        <p>Radiation therapy uses high-energy rays or particles to destroy cancer cells left behind after surgery.
+           It's often recommended after a lumpectomy or when cancer has spread to the lymph nodes.
+            The goal is to lower the chances of recurrence in the breast or chest wall.
+             Treatments are usually delivered daily over several weeks and are painless, although they may cause temporary skin irritation or fatigue.</p>
+      </details>
+  
+      <details>
+        <summary>Chemotherapy</summary>
+        <p>Chemotherapy uses powerful drugs that travel through the bloodstream to kill rapidly dividing cancer cells throughout the body.
+           It's often used when the cancer is aggressive, has spread beyond the breast, or to shrink tumors before surgery (neoadjuvant chemotherapy).
+            Side effects can include hair loss, nausea, fatigue, and a weakened immune system, but many are temporary and manageable.
+             Chemo is typically given in cycles over several months.</p>
+      </details>
+  
+      <details>
+        <summary>Hormone Therapy</summary>
+        <p>Hormone (or endocrine) therapy is used for breast cancers that are hormone receptor-positive, meaning they grow in response to estrogen or progesterone.
+           Medications like tamoxifen or aromatase inhibitors work by blocking hormones or lowering their levels in the body.
+            This therapy can last 5 to 10 years and is used to reduce the risk of recurrence after initial treatment.
+             It may also be used to shrink tumors before surgery or treat advanced cancers.</p>
+      </details>
+  
+      <details>
+        <summary>Targeted Therapy</summary>
+        <p>Targeted therapy uses drugs that specifically attack cancer cells with certain markers—like HER2-positive breast cancer—without harming most normal cells.
+           Medications such as trastuzumab (Herceptin) and pertuzumab bind to the HER2 protein and block its function, slowing cancer growth.
+            It’s often used alongside chemo for early-stage or metastatic cancer.
+             Side effects tend to be less severe than chemotherapy but can include heart issues and fatigue.</p>
+      </details>
+  
+      <details>
+        <summary>Immunotherapy</summary>
+        <p>Immunotherapy helps your immune system recognize and destroy cancer cells more effectively.
+           While it's not yet widely used for all breast cancers, it's showing promise especially in triple-negative breast cancer (TNBC), a more aggressive type.
+            Drugs like checkpoint inhibitors remove the "brakes" that keep immune cells from attacking cancer.
+             Side effects vary but can include inflammation in organs and flu-like symptoms.</p>
+      </details>
+  
+      <details>
+        <summary>Adjuvant Therapy</summary>
+        <p>Adjuvant therapy refers to any treatment given after the main treatment, usually surgery, to lower the risk of the cancer returning.
+           It can include radiation, chemotherapy, hormone therapy, or targeted therapy depending on the cancer type and stage.
+            The goal is to kill any remaining microscopic cancer cells that couldn’t be detected.
+             This approach has been shown to significantly improve long-term survival rates.</p>
+      </details>
+    </div>
+  </section>
+  </div>
+</div>
+
+
+
+
+
+
+  
+
+
+  <!-- Footer -->
+  <section class="footer">
+    <h4>About Us</h4>
+    <p>We are committed to raising awareness and supporting those affected by breast cancer.</p>
+    <div class="icons">
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-linkedin-in"></i>
+    </div>
+    <p>Made by Shakhzoda</p>
+  </section>
+
+  <!-- JavaScript for Toggle Menu -->
+  <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+  </script>
+
+</body>
+</html>
+
+

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Breast Cancer Awareness</title>
+  <link rel="stylesheet" href="home.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="images/black logo.png" alt="Breast Cancer Logo"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="website.html">Home</a></li>  
+          <li><a href="about.html">About</a></li>
+          <li><a href="prevention.html">Prevention</a></li>
+          <li><a href="treatment.html">Treatment</a></li>
+          <li><a href="survivors.html">Survivors</a></li>
+          <li><a href="get-involved.html">Get Involved</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Contact Us</h1>
+    </section>
+<!------contact us------->
+<section class="contact-us-section">
+  <div class="contact-box">
+    <h2>Contact Us</h2>
+
+    <div class="contact-details">
+      <p><i class="fas fa-phone"></i> +1 850-238-6526</p>
+      <p><i class="fas fa-envelope"></i> shahzoisbest9999@gmail.com</p>
+    </div>
+
+    <form action="https://formspree.io/f/xovdqyzo" method="POST" class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Inquiry</button>
+    </form>
+  </div>
+</section>
+
+
+
+
+
+  <!-- Footer -->
+  <section class="footer">
+    <h4>About Us</h4>
+    <p>We are committed to raising awareness and supporting those affected by breast cancer.</p>
+    <div class="icons">
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-linkedin-in"></i>
+    </div>
+    <p>Made by Shakhzoda</p>
+  </section>
+
+  <!-- JavaScript for Toggle Menu -->
+  <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+  </script>
+
+</body>
+</html>
+
+
